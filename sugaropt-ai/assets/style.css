@@ -1,0 +1,105 @@
+/* SugarOpt AI - Industrial-Agricultural Theme */
+
+:root {
+  --primary: #047857;
+  --primary-dark: #064e3b;
+  --primary-light: #d1fae5;
+  --accent: #d97706;
+  --slate-dark: #0f172a;
+  --slate-card: #1e293b;
+  --slate-border: #334155;
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+}
+
+/* Header Banner */
+.hero-header {
+  background: linear-gradient(135deg, #064e3b 0%, #0f172a 100%);
+  padding: 1.8rem 2rem;
+  border-radius: 12px;
+  border-left: 6px solid #10b981;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+}
+
+.hero-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: -0.5px;
+  margin-bottom: 0.3rem;
+}
+
+.hero-subtitle {
+  font-size: 1.05rem;
+  color: #a7f3d0;
+  font-weight: 400;
+}
+
+/* Metric KPI Cards */
+.kpi-card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 1.2rem;
+  text-align: center;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.kpi-card:hover {
+  border-color: #10b981;
+}
+
+.kpi-label {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #94a3b8;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.kpi-value {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #34d399;
+}
+
+.kpi-sub {
+  font-size: 0.78rem;
+  color: #64748b;
+  margin-top: 0.2rem;
+}
+
+/* Alert / Callout Boxes */
+.scientific-notice {
+  background-color: rgba(6, 78, 59, 0.25);
+  border-left: 4px solid #10b981;
+  padding: 0.9rem 1.2rem;
+  border-radius: 6px;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  color: #e2e8f0;
+}
+
+.warning-notice {
+  background-color: rgba(180, 83, 9, 0.2);
+  border-left: 4px solid #f59e0b;
+  padding: 0.9rem 1.2rem;
+  border-radius: 6px;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  color: #fef3c7;
+}
+
+/* Feature Badge */
+.feature-badge {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  background-color: #334155;
+  color: #e2e8f0;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  margin-right: 0.4rem;
+  margin-bottom: 0.4rem;
+}
